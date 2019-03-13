@@ -3,41 +3,17 @@ def working with arrays
 
 end
 
-  context 'instantiating' do
-    describe "#instantiate_new_array" do
-      #the variables that begin with the '@' symbol are called instance variables. 
-      #We'll learn more about them when we get to object orientation. 
-      #For now, just know that creating an instance variable inside our describe block 
-      #means we can access that variable anywhere inside the block.
-      before(:each) do
-        @my_new_array = instantiate_new_array
-      end
-      
-      it "creates a new array and returns it" do
-        expect(@my_new_array).to be_an(Array)
-      end
-
-      it "returns an array that is empty" do
-        size = @my_new_array.size 
-        expect(size).to eq(0)
-      end
-    end
+  # context 'instantiating' do
     
-    describe "#array_with_two_elements" do
-      before(:each) do 
-        @my_two_array = array_with_two_elements
-      end 
+def instantiate_new_array
+    @my_new_array = []
+    @my_new_array
+end
+  
+def array_with_two_elements
+ @my_two_array = [1, 2]
+end 
       
-      it "creates a new array with two elements in it and returns that array" do
-        expect(@my_two_array).to be_an(Array)
-      end
-
-      it "returns an array that has 2 objects in it" do
-        size = @my_two_array.size
-        expect(size).to eq(2)
-      end
-    end
-  end
 
   context 'indexing' do
     before(:each) do
