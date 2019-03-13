@@ -14,10 +14,10 @@ def first_element(arg)
   @taylor_swift[0]
 end
 
-def third_element
+def third_element()
   @taylor_swift[2]
   end
-def last_element
+def last_element()
   @taylor_swift[-1]
 end
 
