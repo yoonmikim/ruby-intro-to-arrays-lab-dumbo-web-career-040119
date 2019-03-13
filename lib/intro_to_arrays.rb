@@ -14,22 +14,22 @@ def first_element(arg)
   @taylor_swift[0]
 end
 
-def third_element()
+def third_element(arg)
   @taylor_swift[2]
   end
-def last_element()
+def last_element(arg)
   @taylor_swift[-1]
 end
 
-def first_element_with_array_methods
+def first_element_with_array_methods(arg)
   @south_east_asia[0]
      
 end
 
-def last_element_with_array_methods
+def last_element_with_array_methods(arg)
       @south_east_asia[-1]
 end
 
-def length_of_array
+def length_of_array(arg)
  @programming_languages.length
 end
