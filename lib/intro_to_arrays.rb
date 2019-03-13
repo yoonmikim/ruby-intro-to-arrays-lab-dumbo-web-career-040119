@@ -1,4 +1,7 @@
-def "working with arrays" do
+def working with arrays
+
+
+end
 
   context 'instantiating' do
     describe "#instantiate_new_array" do
